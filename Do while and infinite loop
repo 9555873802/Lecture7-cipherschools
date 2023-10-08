@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+    int i = 1;
+    do {
+        std::cout << "Hello World\n";
+        i++;
+    } while (i < 6);
+    return 0;
+}
+//infinite loop:
+for (;;) {
+    // body of the loop
+}
+
